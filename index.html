@@ -31,12 +31,13 @@
         <!-- define Position, Rotation and Scale of the model -->
         <a-entity mindar-image-target="targetIndex: 0">
             <a-gltf-model
-            src="#Planet"
-            scale="0.2 0.2 0.2"
-            position="0 0 0"
-            rotation="90 0 0"
-            animation-mixer="loop: once; clampWhenFinished: true;">
-        </a-gltf-model>
+                animation-mixer
+                position="0 0 0"
+                rotation="90 0 0"
+                scale="0.03 0.03 0.03"
+                src="#Planet"
+                id="DerPlanet">
+            ></a-gltf-model>
         </a-entity>
     </a-scene>
 </body>
